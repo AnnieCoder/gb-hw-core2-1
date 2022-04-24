@@ -16,7 +16,7 @@ public class Main {
         Obstruction[] obstructions = new Obstruction[6];
 
         for (int i = 0; i < obstructions.length; i++) {
-            int distance = rand.nextInt(15);
+            int distance = rand.nextInt(10);
             boolean isWall = rand.nextBoolean();
             if (isWall) {
                 obstructions[i] = new Wall("Wall " + i, distance);
